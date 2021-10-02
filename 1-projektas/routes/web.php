@@ -13,6 +13,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function () { // index.php
+    return view('welcome'); //welcome    .blade.php
+});
+
+Route::get('/pirmasispuslapis', function () {
+    return view('pirmasispuslapis');
+});
+
+Route::get('/pakartotinenuoroda', function () {
+    return view('pirmasispuslapis');
+});
+
+Route::get('/antraspuslapis', function () {
+    return view('antrasvaizdas');
 });

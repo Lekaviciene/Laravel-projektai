@@ -82,7 +82,13 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
-                    
+
+                </div>
+
+                <div class="my-routes-links">
+                    <a href="{{ url('/pirmasispuslapis') }}">Pirmasis puslapis</a>
+                    <a href="pakartotinenuoroda">Pakartotine nuoroda</a>
+                    <a href="antraspuslapis"> Antrasis puslapis</a>
                 </div>
 
                 <div class="links">
